@@ -1,0 +1,130 @@
+
+<main>
+      
+<div class="titles">
+
+
+
+    <h3>
+
+        By: {{#each nam}}
+
+        
+
+        {{this.username}}
+
+
+
+        {{/each}}
+        <br>
+        <br>
+        
+        
+
+        {{#each posts}}
+
+        {{log "joper"}}
+
+        {{log this}}
+
+
+            <h1>
+        {{title}}
+        
+        
+    </h1>
+        <br>
+              <video width="320" height="240"
+             controls><source src = {{this.video}}></video>
+
+             <br>
+             {{this.describtion}}
+             
+
+    </h3>
+    <br>
+    <br>
+    {{this.createdAt}}
+    </div>
+</div>
+<div class="outline">
+           </div>
+           <div>
+
+    <h2>
+
+
+
+
+
+        
+
+
+
+
+        Comments
+
+
+         
+        {{us}}
+
+        {{log "LWE"}}
+        {{log this.Author}}
+    </h2>
+    <center>
+    <label  for="comment">Leave a comment</label>
+    <form
+          action ="/comments/create"
+  method ="POST"
+  enctype = "application/x-www-form-urlencoded">
+    <input class ="input-text" type="text" name = "{{this.id}} {{this.Author}}"
+           id = "comment" />
+
+
+    <input class="form-button submit-button" type ="submit"value= "Submit">
+
+    </form>
+
+    </center>
+           
+     {{/each}}
+
+
+        
+
+
+
+        </form>
+        
+
+{{#each comments}}
+    <nav>
+        <ul>
+            <li>
+                <p>
+                    {{this.text}}
+                </p>
+
+
+                <p>
+                    {{this.username}}
+                </p>
+
+                <p>
+                    Posted on: {{this.createAt}}
+                </p>
+
+            </li>
+
+            
+        </ul>
+    </nav>
+    {{/each}}
+     
+
+
+
+
+
+</div>
+<main>

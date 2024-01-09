@@ -1,0 +1,31 @@
+
+<main>
+  <h2>Posting</h2>
+  <div class = "form-center">
+  <form action ="/posts/create"
+  method= "POST"
+  enctype="multipart/form-data">
+
+    
+
+
+    <label for="Title">Title</label>
+    <input class="input-text" type="text" name = "Title"
+           id = "Title" placeholder="Post Title"/>
+
+    <label for="Description">Description</label>
+    <input class="input-text" type="text" name = "Description"
+           id = "Description" placeholder="Post Description"/>
+          </div>
+    <input class="form-button file-button" type="file" name = "UploadVideo"
+           id="img-select">
+    <div class="checkbox-group">
+    <input type="checkbox" id="accept">
+    <label for="accept">Accept the Use Policy for uploading videos</label>
+    </div>
+    
+
+    <input class="form-button submit-button" type ="submit" value= "Submit">
+
+  </form>
+</main>

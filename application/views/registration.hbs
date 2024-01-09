@@ -1,0 +1,56 @@
+
+
+<main>
+
+
+  <h2>Registration Form</h2>
+
+
+
+  <div class = "form-center">
+  <form id = "reg-form" 
+  action ="/users/register" 
+  method ="POST"
+  enctype = "application/x-www-form-urlencoded">
+
+    <label for="UserName">UserName</label>
+    <input class="input-text" type="text" name = "User_name"
+           id = "Username" placeholder="Username"required/>
+
+    <label for ="Email"> Email</label>
+    <input class="input-text" type = "email" name ="Email"
+           id="Email" placeholder="Email"required />
+
+    <label for="UserName">Password</label>
+    <input class="input-text" type="password" name = "Password"
+           id = "Password" placeholder="Password" required />
+
+    <label for="UserName">Confirm Password</label>
+    <input class="input-text" type="password" name = "ConfirmPassword"
+           id = "Confirm Password" placeholder="Password" />
+    <div>
+    <div class="checkbox-group">
+    <input  type="checkbox" id="age" required name = "ageCheck">
+    <label for="age">I am 13 years or older</label>
+    </div>
+
+  
+
+
+
+
+
+    <input type="checkbox" id="TOS" required name = "tosCheck">
+    <label for="TOS">I accept the<a href = "/registration">Terms of Service</a> and <a href = "/registration">Privacy Rules</a></label>
+    
+
+    <br>
+
+    <input class="form-button submit-button"  type ="submit" value= "Submit">
+  </div>
+
+
+
+
+  </form>
+</main>

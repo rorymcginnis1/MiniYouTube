@@ -1,0 +1,34 @@
+
+<main>
+
+
+
+
+  
+
+
+  <script defer src="/public/js/working.js"></script>
+
+  {{#each posts}}
+
+<br>
+<a href = "/posts{{this.id}}"><img src = {{this.thumbnail}}></a>
+
+
+<br>
+<p>
+
+
+
+  
+  
+
+  <a href = "/posts{{this.id}}">{{this.title}}</a>
+</p>
+
+
+{{/each}}
+
+
+ 
+  </main>

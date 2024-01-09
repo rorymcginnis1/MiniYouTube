@@ -1,0 +1,55 @@
+
+<main>
+
+  <div class="titles">
+  <p>
+    UserName: {{user.username}}
+  </p>
+
+
+</div>
+
+
+<div class = "titles">
+  <p>
+    Email: {{user.email}}
+  </p>
+
+  {{#each posts}}
+  {{log this}}
+  <p>
+
+        <a href = "/posts{{this.id}}">{{this.title}}</a>
+      </p>
+      
+
+
+
+
+      <p class="outline">
+      <a href = "/posts{{this.id}}"><img src = {{this.thumbnail}}></a>
+             
+             
+      </p>
+      {{this.describtion}}
+      <p>
+        <center>
+                <form id ="delete" style="width: 100px;"  action ="/posts/delete{{this.id}}" 
+        method ="POST"
+        enctype = "application/x-www-form-urlencoded"
+        >
+
+        <div>
+
+        </div>   
+
+            <input type ="submit" value= "Delete This Post" id="1" value = {{this.id}}>
+  </form>
+  </center>
+      </p>
+
+
+  {{/each}}
+
+
+</main>
