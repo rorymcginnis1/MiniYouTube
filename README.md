@@ -19,3 +19,7 @@ PORT (The port you want the website to be on)
 2. Once the .env file is created navigate to the applications folder and run the command npm run grade. This will create the tables in your databse
 3. Open the website (If you selected localhost for DB_HOST and 3000 for PORT the website will appear on http://localhost:3000)
 
+
+
+https://github.com/rorymcginnis1/MiniYouTube/assets/121205078/03dc7539-c791-4cf6-a9d3-f80cebed2d3c
+
