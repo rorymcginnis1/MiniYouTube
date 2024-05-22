@@ -1,11 +1,20 @@
 # MiniYouTube
 
-The purpose of this repository is to store all the code for your web application. This also includes the history of all commits made and who made them. Only code submitted on the master branch will be graded.
+## Description
 
-Please follow the instructions below and fill in the information requested when prompted.
+Create a fully functional web platform inspired by YouTube's core features. Implimented user authentication mechanisms, 
 
+facilitating secure account management and content access. Enabled user engagement through interactive features such as:
 
+Create a user account
 
+Upload and Delete videos
+
+View other users videos
+
+Create and Delete Comments
+
+Search for videos based on their description or name in a search bar
 
 # Build/Run Instructions
 
@@ -30,7 +39,7 @@ This will create the tables in your database
 
 3. Open the website (If you selected localhost for DB_HOST and 3000 for PORT the website will appear on http://localhost:3000)
 
-
+## Demo
 
 https://github.com/rorymcginnis1/MiniYouTube/assets/121205078/03dc7539-c791-4cf6-a9d3-f80cebed2d3c
 
