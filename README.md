@@ -2,7 +2,7 @@
 
 ## Description
 
-Create a fully functional web platform inspired by YouTube's core features. Implimented user authentication mechanisms, 
+Create a fully functional web platform inspired by YouTube's core features. Implemented user authentication mechanisms, 
 
 facilitating secure account management and content access. Enabled user engagement through interactive features such as:
 
