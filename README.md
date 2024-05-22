@@ -16,6 +16,9 @@ Create and Delete Comments
 
 Search for videos based on their description or name in a search bar
 
+## Tools and Frameworks
+(JS, HTML, CSS, HandleBars, SQL, Node)
+
 # Build/Run Instructions
 
 ## Build Instructions
